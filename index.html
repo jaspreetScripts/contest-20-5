@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="navbar" class="navbar">
+      <div class="header">
+        <a href="#table">Books</a>
+        <a href="#form">Registration</a>
+      </div>
+    </section>
+    <section id="table" class="table-section">
+      <div class="table">
+        <h1>Books</h1>
+        <table>
+          <tr>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Avaliablity</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              <table>
+                <a href="">2 States</a>
+                <!-- <tr>
+                  <th>Book Title 1</th>
+                </tr> -->
+                <tr>
+                  <td>Publication Date 2020</td>
+                </tr>
+                <tr>
+                  <td>Page count 250</td>
+                </tr>
+                <tr>
+                  <td>ISBN 987456321</td>
+                </tr>
+              </table>
+            </td>
+            <td>Chtetan Bhagat</td>
+            <td>Romantic</td>
+            <td>Avaliable</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>
+              <table>
+                <a href="">Twilight</a>
+                <!-- <tr>
+                  <th>Book Title 1</th>
+                </tr> -->
+                <tr>
+                  <td>Publication Date 2010</td>
+                </tr>
+                <tr>
+                  <td>Page count 280</td>
+                </tr>
+                <tr>
+                  <td>ISBN 987456321</td>
+                </tr>
+              </table>
+            </td>
+            <td>Andrey Russle</td>
+            <td>Horror</td>
+            <td>Avaliable</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>
+              <table>
+                <a href="">Rich Dad Poor Dad</a>
+                <!-- <tr>
+                  <th>Book Title 1</th>
+                </tr> -->
+                <tr>
+                  <td>Publication Date 2020</td>
+                </tr>
+                <tr>
+                  <td>Page count 300</td>
+                </tr>
+                <tr>
+                  <td>ISBN 987456321</td>
+                </tr>
+              </table>
+            </td>
+            <td>Mark Sharma</td>
+            <td>Self Helf</td>
+            <td>Avaliable</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>
+              <table>
+                <a href="">Mirror</a>
+                <!-- <tr>
+                  <th>Book Title 1</th>
+                </tr> -->
+                <tr>
+                  <td>Publication Date 2011</td>
+                </tr>
+                <tr>
+                  <td>Page count 350</td>
+                </tr>
+                <tr>
+                  <td>ISBN 987456321</td>
+                </tr>
+              </table>
+            </td>
+            <td>Hardik Sharma</td>
+            <td>Horror</td>
+            <td>Not-Avaliable</td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>
+              <table>
+                <a href="">Sky-High</a>
+                <!-- <tr>
+                  <th>Book Title 1</th>
+                </tr> -->
+                <tr>
+                  <td>Publication Date 2020</td>
+                </tr>
+                <tr>
+                  <td>Page count 250</td>
+                </tr>
+                <tr>
+                  <td>ISBN 987456321</td>
+                </tr>
+              </table>
+            </td>
+            <td>Virat Pandya</td>
+            <td>Sci-fi</td>
+            <td>Avaliable</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <div class="image">
+      <img src="./wave.png" alt="" />
+    </div>
+
+    <section id="form" class="form-section">
+      <div><h1>Register</h1></div>
+      <form action="" class="form">
+        <div>
+          <label for="firstname">First Name</label><br />
+          <input type="text" id="firstname" placeholder="First Name" required />
+        </div>
+        <div>
+          <label for="lastname">Last Name</label><br />
+          <input type="text" id="lastname" placeholder="Last Name" required />
+        </div>
+        <div>
+          <label for="dob">Date Of Birth</label><br />
+          <input type="date" id="dob" name="dob" />
+        </div>
+        <div>
+          <label for="age">Age</label><br />
+          <input type="number" name="age" id="age" required min="5" max="100" />
+        </div>
+        <div>
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your E-mail"
+            required
+          />
+        </div>
+        <div>
+          <label for="password">Password</label><br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+        <div>
+          <label for="conform-password">Conform Password</label> <br />
+          <input
+            type="password"
+            name="conform-password"
+            id="conform-password"
+            placeholder="Conform Password"
+            required
+          />
+        </div>
+        <div>
+          <button type="submit" name="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
